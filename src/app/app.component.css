@@ -1,0 +1,45 @@
+.width{
+    display: inline-block;
+    border : 1px solid black
+}
+
+@media (min-width : 240px) and (max-width : 280px) {
+    .width{
+        width : 24px;
+        height: 24px;
+    }
+}
+
+@media (min-width : 280px) and (max-width : 320px) {
+    .width{
+        width : 28px;
+        height: 28px;
+    }
+}
+
+@media (min-width : 320px) and (max-width : 400px) {
+    .width{
+        width : 32px;
+        height: 32px;
+    }
+}
+@media (min-width : 400px) and (max-width : 500px) {
+    .width{
+        width : 40px;
+        height: 40px;
+    }
+}
+
+@media (min-width : 500px) and (max-width : 700px) {
+    .width{
+        width : 50px;
+        height: 50px;
+    }
+}
+
+@media (min-width : 700px){
+    .width{
+        width : 70px;
+        height: 70px;
+    }
+}
